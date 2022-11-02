@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 0px ---------- 575px */
+        /* @media (max-width: 575px) {
+            h2 {
+                background-color: aqua;
+            }
+        } */
+
+        /* 576px --------------- infinite */
+        /* @media (min-width: 576px)  {
+            h2 {
+                background-color: coral;
+            }
+        } */
+
+        /* 768px --------------- infinite */
+        /* @media (min-width: 768px) {
+            h2 {
+                background-color: blue;
+            }
+        } */
+
+        /* 576px --------------- 767px */
+        /* @media (min-width: 576px) and (max-width: 767px) {
+            h2 {
+                background-color: coral;
+            }
+        } */
+
+        h2 {
+            margin: 0;
+        }
+
+        /* @media screen and (max-width: 575px) {
+            h2 {
+                text-align: center;
+            }
+        } */
+
+        .title {
+            font-size: 46px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* @media screen and (max-width: 575px) {
+            .title {
+                font-size: 46px;
+            }
+        } */
+
+        /* @media screen and (min-width: 576px) {
+            .title {
+                font-size: 105px;
+                font-weight: 700;
+            }
+        }
+
+
+        @media screen and (min-width: 768px) {
+
+            .title,
+            .title2 {
+                text-align: center;
+            }
+        }
+
+        @media screen and (min-width: 992px) {
+            .title {
+                text-align: right;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .title3 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 65px;
+            }
+        } */
+
+
+        .text-left {
+            text-align: left;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        /* Mobile, Small, Medium, Large, X-Large */
+
+
+
+        /* 576px ------------------- infinite */
+        @media screen and (min-width: 576px) {
+            .text-sm-left {
+                text-align: left;
+            }
+
+            .text-sm-center {
+                text-align: center;
+            }
+
+            .text-sm-right {
+                text-align: right;
+            }
+        }
+
+        /* 768px ------------------- infinite */
+        @media screen and (min-width: 768px) {
+            .text-md-left {
+                text-align: left;
+            }
+
+            .text-md-center {
+                text-align: center;
+            }
+
+            .text-md-right {
+                text-align: right;
+            }
+        }
+
+        /* 992px ------------------- infinite */
+        @media screen and (min-width: 992px) {
+            .text-lg-left {
+                text-align: left;
+            }
+
+            .text-lg-center {
+                text-align: center;
+            }
+
+            .text-lg-right {
+                text-align: right;
+            }
+        }
+
+
+        /* 1200px ------------------- infinite */
+        @media screen and (min-width: 1200px) {
+            .text-xl-left {
+                text-align: left;
+            }
+
+            .text-xl-center {
+                text-align: center;
+            }
+
+            .text-xl-right {
+                text-align: right;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 class="title text-md-right">First title</h2>
+    <h2 class="title2 text-sm-center text-xl-left">Awesome title</h2>
+    <h2 class="title3">Third title</h2>
+
+</body>
+
+</html>
